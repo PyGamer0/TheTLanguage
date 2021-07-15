@@ -1,0 +1,12 @@
+a = 0
+
+fn check(x)
+    if x > 2
+        ret x
+    else
+        ret 2
+
+for x in range(10)
+    print(x)
+    a += x ** 2
+    print(check(x))
